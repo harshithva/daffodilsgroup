@@ -1,4 +1,4 @@
-# daffodilsgroup
+# Daffodilsgroup
 
 This is a Website built for Daffodils Group.
 
