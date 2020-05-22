@@ -1,0 +1,9 @@
+
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW SSL_REDIRECT:daffodilsgroup.co.in
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} (www\.)?daffodilsgroup.co.in
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE SSL_REDIRECT:daffodilsgroup.co.in
