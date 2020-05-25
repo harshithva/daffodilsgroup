@@ -3622,8 +3622,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #f9f9ff;
 }
 
+
+
 /*
 ################
                End Blog Details  Page style
 ################
 */
+
+.products-area {
+  margin-top: 2rem;
+}
+.products-title{
+  color:white;
+  background-color: black;
+  /* border-radius: 1.2rem; */
+}
