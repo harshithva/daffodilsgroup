@@ -2013,6 +2013,10 @@ h6 {
   transition: all 0.5s;
 }
 
+.logo {
+width: 11rem;
+}
+
 @media (max-width: 673px) {
   #logo {
     margin-left: 20px;
@@ -2403,9 +2407,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: 0;
   bottom: 0;
 }
-
 .banner-area {
   background: url(../img/hero-1.jpg) center;
+  background-size: cover;
+}
+
+
+.banner-area-1 {
+  background: url(../img/hero-1.jpg) center;
+  background-size: cover;
+}
+
+.banner-area-2 {
+  background: url(../img/hero-2.jpg) center;
+  background-size: cover;
+}
+
+.banner-area-3 {
+  background: url(../img/hero-3.jpg) center;
   background-size: cover;
 }
 
@@ -2768,7 +2787,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .overlay-bg {
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.753);
   opacity: 0.7;
 }
 

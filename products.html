@@ -58,11 +58,9 @@
 		</div>
 		<div class="container main-menu">
 			<div class="row align-items-center justify-content-between d-flex">
-				<div id="logo-main">
-					<a href="index.html" class="logo-header-top">
-						<!-- <img src="img/logo.png" alt=""/> -->
-
-						Daffodilsgroup
+				<div>
+					<a href="index.html">
+						<img src="img/logo.png" alt="" class="logo" />
 					</a>
 				</div>
 				<nav id="nav-menu-container">
@@ -70,7 +68,14 @@
 						<li class="menu-active"><a href="index.html">Home</a></li>
 						<li class="menu-active"><a href="about.html">About</a></li>
 						<li class="menu-active"><a href="management.html">Management</a></li>
-						<li class="menu-active"><a href="products.html">Products</a></li>
+						<li class="menu-has-children"><a href="">Products</a>
+							<ul>
+								<li><a href="#products-fly-ash">Fly Ash</a></li>
+								<li><a href="#products-waterproof">Integral Waterproofing Compound</a></li>
+								<li><a href="#products-furnace">GGBS</a></li>
+								<li><a href="#products-pb">PB Curing Compound</a></li>
+							</ul>
+						</li>
 						<li><a href="contact.html">Contact</a></li>
 						<!-- <li><a href="elements.html">Elements</a></li> -->
 					</ul>
@@ -303,10 +308,40 @@
 			</div>
 	</section>
 
-	<section class="products-area" id="products-furnace">
+	<section class="products-area" id="products-pb">
 
 		<div class="container">
+
+
 			<h3 class="mb-4 products-title text-center p-2">Daffcon PB Curing Compound</h3>
+			<div class="row">
+				<div class="col-md-12">
+
+					<div id="mdb-lightbox-ui"></div>
+
+					<div class="mdb-lightbox d-flex d-inline">
+
+						<figure class="col-md-4">
+							<a href="./img/products/dfcon/dfcon-bottle-1.png" data-size="1600x1067">
+								<img alt="picture" src="./img/products/dfcon/dfcon-bottle-1.png" class="img-fluid">
+								<h5 class="text-center bg-secondary text-white p-2">1 Litre</h5>
+							</a>
+						</figure>
+						<figure class="col-md-4">
+							<a href="./img/products/dfcon/dfcon-bottle-3.png" data-size="1600x1067">
+								<img alt="picture" src="./img/products/dfcon/dfcon-bottle-3.png" class="img-fluid">
+								<h5 class="text-center bg-secondary text-white p-2">5 Litre</h5>
+							</a>
+						</figure>
+						<figure class="col-md-4">
+							<a href="./img/products/dfcon/dfcon-bottle-2.png" data-size="1600x1067">
+								<img alt="picture" src="./img/products/dfcon/dfcon-bottle-2.png" class="img-fluid">
+							</a>
+							<h5 class="text-center bg-secondary text-white p-2">20 Litre</h5>
+						</figure>
+					</div>
+				</div>
+			</div>
 			<div class="row justify-content-center align-items-center">
 				<div class="col">
 					<p class="m-3">DAFFCON PB a white pigment which at recommended coverage rates gives a daylight
@@ -359,6 +394,10 @@
 
 				</div>
 			</div>
+
+
+
+		</div>
 	</section>
 
 	<hr>
@@ -430,6 +469,11 @@
 	<script src="js/waypoints.min.js"></script>
 	<script src="js/mail-script.js"></script>
 	<script src="js/main.js"></script>
+	<script>
+		$(function () {
+			$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+		});
+	</script>
 </body>
 
 </html>
